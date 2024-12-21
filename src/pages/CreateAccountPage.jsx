@@ -11,7 +11,7 @@ const CreateAccountPage = () => {
         <div className="md:bg-white">
             <div className="mb-7">
                 <h2 className="text-[24px] text-[#333333] font-semibold mb-2">Create account</h2>
-                <p className="text-[#737373]">Let's get you started sharing your links!</p>
+                <p className="text-[#737373]">Let's get you started sharing your</p>
             </div>
             <form className="text-[#737373] flex flex-col gap-6 mb-6">
                 <div className="flex flex-col">
@@ -54,7 +54,7 @@ const CreateAccountPage = () => {
                 <p className="text-xs">Password must contain at least 8 characters</p>
                 <button type="submit" className="text-white bg-[#633CFF] p-3 rounded-lg">Create new account</button>
             </form>
-            <p className="text-[#737373] flex flex-col items-center">Already have an account? <a href="#"><p className="text-[#633CFF]">Login</p></a></p>
+            <div className="text-[#737373] flex flex-col items-center">Already have an account? <a href="#"><p className="text-[#633CFF]">Login</p></a></div>
         </div>
       </div>
     </div>
