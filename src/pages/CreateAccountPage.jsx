@@ -1,10 +1,10 @@
 const CreateAccountPage = () => {
   return (
-    <div className="w-screen h-screen bg-white md:bg-[#FAFAFA] flex justify-center items-center p-8">
+    <div className="w-screen h-screen bg-white md:bg-[#FAFAFA] md:flex md:justify-center md:items-center p-8">
       <div>
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-2 mb-14">
             <img src="/images/logo.png" alt="logo" />
-            <h1>Share It</h1>
+            <h1 className="text-[#333333] font-bold text-2xl tracking-wide">Share It</h1>
         </div>
         <div className="md:bg-white">
             <div>
