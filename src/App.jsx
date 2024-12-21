@@ -1,9 +1,11 @@
+import CreateAccountPage from "./pages/CreateAccountPage";
+
 const App = () => {
   return (
-    <div className="text-3xl underline font-bold">
-      Hello World
+    <div>
+      <CreateAccountPage />
     </div>
   )
-}
+};
 
-export default App
+export default App;
