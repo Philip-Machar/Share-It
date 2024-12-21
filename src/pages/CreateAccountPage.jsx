@@ -11,7 +11,7 @@ const CreateAccountPage = () => {
         <div className="md:bg-white">
             <div className="mb-7">
                 <h2 className="text-[24px] text-[#333333] font-semibold mb-2">Create account</h2>
-                <p className="text-[#737373]">Let's get you started sharing your</p>
+                <p className="text-[#737373]">Let's get you started sharing your links!</p>
             </div>
             <form className="text-[#737373] flex flex-col gap-6 mb-6">
                 <div className="flex flex-col">
@@ -44,7 +44,7 @@ const CreateAccountPage = () => {
                     <div className="relative">
                         <IoIosLock className="ml-3 absolute top-1/2 transform -translate-y-1/2" />
                         <input 
-                            id="password"
+                            id="confirmPassword"
                             type="password"
                             placeholder="At least 8 characters"
                             className="text-[#333333] border border-[#D9D9D9] outline-none py-3 px-9 rounded-lg placeholder-[#737373] w-full"
