@@ -61,5 +61,5 @@ const CreateAccountPage = () => {
   )
 }
 
-export default CreateAccountPage
+export default CreateAccountPage;
 
