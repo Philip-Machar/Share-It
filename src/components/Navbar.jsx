@@ -39,7 +39,7 @@ const Navbar = () => {
           </svg>
         </div>
       </div>
-      <div className="grid place-content-center border border-[#633CFF] px-4 py-2 rounded-[5px]">
+      <div className="grid place-content-center border-2 border-[#633CFF] px-4 py-2 rounded-[5px]">
         <svg 
           xmlns="http://www.w3.org/2000/svg" 
           width="25" 
