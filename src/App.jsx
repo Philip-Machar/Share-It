@@ -29,6 +29,9 @@ const App = () => {
       {/* <CreateAccountPage /> */}
       {/* <LoginPage /> */}
       <Navbar />
+      <div>
+        <LinksPage />
+      </div>
     </div>
   )
 };

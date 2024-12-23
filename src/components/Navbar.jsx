@@ -16,7 +16,7 @@ const Navbar = () => {
             height="25" 
             fill="none" 
             viewBox="0 0 21 20" 
-            className="w-[25px] text-[#633CFF]"
+            className="text-[#633CFF]"
           >
             <path 
               fill="currentColor" 
