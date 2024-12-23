@@ -1,17 +1,18 @@
 import { IoMdMail, IoIosLock } from "react-icons/io";
+import { Link } from "react-router-dom";
 
 const LoginPage = () => {
   return (
     <div className="w-screen h-screen bg-white md:bg-[#FAFAFA] md:flex md:justify-center md:items-center p-8">
       <div>
         <div className="flex items-center gap-2 mb-12">
-            <img src="/images/logo.png" alt="logo" />
-            <h1 className="text-[#333333] font-bold text-[28px]">Share It</h1>
+            <img src="/images/logo-devlinks-small.svg" alt="logo" />
+            <h1 className="text-[#333333] font-bold text-2xl">Share It.</h1>
         </div>
         <div className="md:bg-white">
             <div className="mb-7">
-                <h2 className="text-[24px] text-[#333333] font-semibold mb-2">Login</h2>
-                <p className="text-[#737373]">Add your details below to get back into the app</p>
+                <h2 className="text-2xl text-[#333333] font-semibold mb-2">Login</h2>
+                <p className="text-[#737373]">Add your details below to get back into the app.</p>
             </div>
             <form className="text-[#737373] flex flex-col gap-6 mb-6">
                 <div className="flex flex-col">
@@ -41,7 +42,7 @@ const LoginPage = () => {
                 </div>
                 <button type="submit" className="text-white bg-[#633CFF] p-3 rounded-lg">Login</button>
             </form>
-            <div className="text-[#737373] flex flex-col items-center">Don't have an account? <a href="#"><p className="text-[#633CFF]">Create account</p></a></div>
+            <div className="text-[#737373] flex flex-col items-center">Don't have an account? <Link to="/create-account"><p className="text-[#633CFF]">Create account</p></Link></div>
         </div>
       </div>
     </div>
