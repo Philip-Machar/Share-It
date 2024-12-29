@@ -47,7 +47,7 @@ const LinksPage = () => {
                 name="link" 
                 type="text" 
                 placeholder="eg. https://github.com/Philip-Machar"
-                className="text-[#333333] border border-[#D9D9D9] outline-none py-3 px-4 rounded-lg placeholder-[#737373] w-full"
+                className="text-[#333333] border border-[#D9D9D9] outline-none py-3 pl-4 rounded-lg placeholder-[#737373] w-full"
               />
             </div>
           </form>
