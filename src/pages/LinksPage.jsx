@@ -61,5 +61,5 @@ const LinksPage = () => {
   )
 }
 
-export default LinksPage
+export default LinksPage;
 
