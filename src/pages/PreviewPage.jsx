@@ -8,4 +8,4 @@ const PreviewPage = () => {
   )
 }
 
-export default PreviewPage
+export default PreviewPage;
