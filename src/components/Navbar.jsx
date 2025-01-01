@@ -1,6 +1,8 @@
+import { IoLogOutOutline } from "react-icons/io5";
+
 const Navbar = () => {
   return (
-    <div className="flex justify-between bg-white p-4">
+    <div className="flex justify-between items-center bg-white p-4">
       <div>
         <img 
         src="/images/logo-devlinks-small.svg" 
@@ -53,6 +55,9 @@ const Navbar = () => {
           />
         </svg>
       </div>
+      <IoLogOutOutline 
+        className="text w-[25px] h-[25px]" 
+      />
     </div>
   )
 }
