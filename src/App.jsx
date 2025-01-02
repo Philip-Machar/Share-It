@@ -8,32 +8,32 @@ import ProfilePage from "./pages/ProfilePage";
 import Navbar from "./components/Navbar";
 
 const App = () => {
-  // const routes = [
-  //   { path: "/", element: <PreviewPage />},
-  //   { path: "/login", element: <LoginPage />},
-  //   { path: "/create-account", element: <CreateAccountPage />},
-  //   {
-  //     element: <MainLayout />,
-  //     children: [
-  //       { path: "/links", element: <LinksPage /> },
-  //       { path: "/profile", element: <ProfilePage />}
-  //     ]
-  //   }
-  // ]
+  const routes = [
+    { path: "/", element: <PreviewPage />},
+    { path: "/login", element: <LoginPage />},
+    { path: "/create-account", element: <CreateAccountPage />},
+    {
+      element: <MainLayout />,
+      children: [
+        { path: "/links", element: <LinksPage /> },
+        { path: "/profile", element: <ProfilePage />}
+      ]
+    }
+  ]
 
-  // const routing = useRoutes(routes);
+  const routing = useRoutes(routes);
 
-  // return routing;
-  return (
-    <div className="bg-[#FAFAFA] w-screen h-screen">
-      {/* <CreateAccountPage /> */}
-      {/* <LoginPage /> */}
-      <Navbar />
-      <div>
-        <LinksPage />
-      </div>
-    </div>
-  )
+  return routing;
+  // return (
+  //   <div className="bg-[#FAFAFA] w-screen h-screen">
+  //     {/* <CreateAccountPage /> */}
+  //     {/* <LoginPage /> */}
+  //     <Navbar />
+  //     <div>
+  //       <LinksPage />
+  //     </div>
+  //   </div>
+  // )
 };
 
 export default App;
