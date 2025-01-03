@@ -19,13 +19,31 @@ const ProfilePage = () => {
       </div>
 
       <div className="bg-[#FAFAFA] p-6 mb-6 rounded-lg">
-        <form>
+        <form className="flex flex-col gap-2">
             <div>
               <label htmlFor="first_name" className="text-[#333333] text-xs">First Name*</label>
               <input 
                 id="first_name"
                 type="text" 
                 name="first_name"
+                className="text-[#333333] border border-[#D9D9D9] outline-none py-3 pl-4 rounded-lg w-full mt-1"
+              />
+            </div>
+            <div>
+              <label htmlFor="last_name" className="text-[#333333] text-xs">Last Name*</label>
+              <input 
+                id="last_name"
+                type="text" 
+                name="last_name"
+                className="text-[#333333] border border-[#D9D9D9] outline-none py-3 pl-4 rounded-lg w-full mt-1"
+              />
+            </div>
+            <div>
+              <label htmlFor="email" className="text-[#333333] text-xs">Email*</label>
+              <input 
+                id="email"
+                type="email" 
+                name="email"
                 className="text-[#333333] border border-[#D9D9D9] outline-none py-3 pl-4 rounded-lg w-full mt-1"
               />
             </div>
