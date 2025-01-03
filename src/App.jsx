@@ -28,9 +28,9 @@ const App = () => {
     <div className="bg-[#FAFAFA] w-screen h-screen">
       {/* <CreateAccountPage /> */}
       {/* <LoginPage /> */}
-      {/* <Navbar /> */}
+      <Navbar />
       <div>
-        <PreviewPage />
+        <LoginPage />
       </div>
     </div>
   )
