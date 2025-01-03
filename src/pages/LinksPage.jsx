@@ -54,7 +54,7 @@ const LinksPage = () => {
       </div>
       <hr className="-mx-5 my-6 border-[1px]" />
       <div className="flex justify-center items-center">
-        <button className="bg-[#633CFF] text-white font-semibold w-full py-3 rounded-lg mb-4">save</button>
+        <button className="bg-[#633CFF] text-white font-semibold w-full py-3 rounded-lg mb-4 opacity-40">save</button>
       </div>
     </div>
   )
